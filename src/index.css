@@ -17,7 +17,28 @@ body {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
+  background-color: black;
 }
+
+/*slick slider begin*/
+.slick-slide>div:nth-child(1) {
+  margin-left: 0;
+}
+
+.slick-slide>div {
+  margin: 0 30px;
+}
+
+.slick-list {
+  margin-left: -30px;
+}
+
+.slick-list {
+  margin-left: -30px;
+  margin: 0 auto;
+}
+/*slick slider end*/
+
 
 .grid-mix {
   grid-template-areas:

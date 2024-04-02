@@ -35,7 +35,7 @@ const GridCon = () => {
   ];
 
   return (
-    <section className="mx-auto pb-[150px] pt-[3px] px-[30px] laptop:pt-[2rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
+    <section className="mx-auto pb-[118px] pt-[3px] px-[30px] laptop:pt-[2rem] laptop:pb-[9px] laptop:max-w-[67.6rem] w-full">
       <div className="grid-mix grid gap-[6px] bg-[rgb(255,255,255)] overflow-hidden grid-cols-gridmix grid-rows-gridcon">
         {images.map((image, index) => (
           <img

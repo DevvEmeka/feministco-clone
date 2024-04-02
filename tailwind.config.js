@@ -23,7 +23,10 @@ export default {
         'center-twice': 'center center',
       },
       rotate: {
-        '91': '270deg'
+        '91': '270deg',
+      },
+      transitionDuration: {
+        '250': '250ms',
       }
     },
   },

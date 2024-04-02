@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="mx-auto pb-[150px] pt-[3px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
+    <section className="mx-auto pb-[76.5px] pt-[150px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
       <div className="flex laptop:flex-row flex-col justify-between laptop:items-center items-start">
         <div className="laptop:font-normal font-medium [flex:unset] font-sangbleul [max-width:unset] laptop:max-w-[50%] text-[2.2em] mb-[30px] laptop:text-[3.6em] leading-snug grow-0 shrink-0 basis-[50%]">
           <p>Championing</p>
