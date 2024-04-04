@@ -82,7 +82,7 @@ const Members = () => {
           <div className="mx-auto pb-[134px]">
             <div className="pt-[25px] relative">
               <div className="laptop:w-[50%] laptop:float-left laptop:pt-[98px] laptop:pl-[108px]">
-                <div className="text-[#ffe369] text-[2em] mb-[1px] font-sangbleu laptop:font-bold laptop:text-[3.8em] laptop:mb-5">
+                <div className="text-[#ffe369] text-[2em] mb-[1px] ml-4 font-sangbleu laptop:font-bold laptop:text-[3.8em] laptop:mb-5">
                   Meet Our Members
                 </div>
                 <div>
@@ -108,7 +108,7 @@ const Members = () => {
                         />
                       </div>
 
-                      <div className="flex flex-col gap-4 py-4 px-[5px]">
+                      <div className="flex flex-col gap-4 ml-4 py-4 px-[5px]">
                         <h2 className="text-[#ffe369] text-[1.7em] mb-[-18px] laptop:text-[2.1em] font-sangbleu font-medium">
                           {d.name}
                         </h2>

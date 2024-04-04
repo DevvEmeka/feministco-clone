@@ -8,7 +8,7 @@ const Finances = () => {
       <h2 className="text-[1.6em] laptop:text-[3.8em] font-sangbleu mb-[30px] font-semibold laptop:font-bold ">
         What We Have Done.
       </h2>
-      <p className="text-[1.18em] laptop:text-[1.51em] mb-[30px] laptop:leading-9 leading-7">
+      <p className="text-[1.18em] laptop:text-[1.51em] font-DM-San mb-[30px] laptop:leading-9 leading-7">
         Here is a summary of the total funds we received and disbursed (in
         Naira) as of <br /> October 22nd, 2020: Total received = ₦147,855,788.28
         (includes donations in USD, <br /> CAD, GBP, EUR, GHS, KES, and BTC)

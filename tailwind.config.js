@@ -8,10 +8,11 @@ export default {
     extend: {
       fontFamily: {
         'sangbleu': ["sangbleu", "sans serif"],
-        'DM-San': ["DM San", "sans serif"],
+        'DM-San': ["DM-San", "sans serif"],
       },
       screens: {
-        laptop: '1024px'
+        laptop: '1024px',
+        smaller: '768px'
       },
       gridTemplateColumns: {
         'gridmix': 'repeat(6,1fr)',
