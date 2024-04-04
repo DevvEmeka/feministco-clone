@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sangbleu': ["sangbleu"],
-        'DM-San': ["DM San"],
+        'sangbleu': ["sangbleu", "sans serif"],
+        'DM-San': ["DM San", "sans serif"],
       },
       screens: {
         laptop: '1024px'

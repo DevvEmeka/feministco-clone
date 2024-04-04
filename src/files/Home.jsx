@@ -5,6 +5,7 @@ import NavBar from '../component/NavBar'
 import GridCon from './GridCon'
 import About from './About'
 import Members from './Members'
+import Finances from './Finances'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <GridCon />
         <About />
         <Members />
+        <Finances />
     </main>
   )
 }
