@@ -96,7 +96,7 @@ const Members = () => {
                   </button>
                 </div>
               </div>
-              <div className="laptop:w-[50%] laptop:mt-0 -mt-[140px] laptop:float-right">
+              <div className="laptop:w-[50%] laptop:mt-0 -mt-[70px] laptop:float-right">
                 <Slider {...settings}>
                   {data.map((d, index) => (
                     <div key={index} className="">

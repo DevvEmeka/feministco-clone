@@ -3,9 +3,9 @@ import aboutImage from "../assets/about-image.png";
 
 const About = () => {
   return (
-    <section className="mx-auto pb-[150px] pt-[3px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
+    <section className="mx-auto pb-[138px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
       <div className="flex items-center justify-center gap-2 w-[100%] flex-col laptop:flex-row">
-        <div className="mb-[28px] laptop:-mb-[185px] laptop:[transform:rotate(270deg)] laptop:w-[10%] laptop:whitespace-nowrap laptop:-ml-[12px] -ml-[88px] text-[2em] laptop:text-[3.5em] font-bold font-sangbleu">
+        <div className="mb-[28px] laptop:-mb-[185px] laptop:[transform:rotate(270deg)] laptop:w-[10%] laptop:whitespace-nowrap laptop:-ml-[12px] -ml-[180px] text-[2em] laptop:text-[3.5em] font-semibold- font-sangbleu">
           Who We Are
         </div>
         <div className="flex w-[90] gap-[39px] flex-col laptop:flex-row">
@@ -16,7 +16,7 @@ const About = () => {
               alt="about"
             />
           </div>
-          <div className="laptop:max-w-[510px] laptop:text-[1.4em] mt-[50px] laptop:mt-[3px] text-[1.2em]">
+          <div className="laptop:max-w-[510px] laptop:text-[1.4em] mt-[-36px] laptop:mt-[3px] text-[1.2em]">
             <p className="mb-[10px] mt-[10px] laptop:leading-7">
               In July 2020, Damilola Odufuwa and Odunayo Eweniyi decided to come
               together to create a coalition of feminist women with a vision of
