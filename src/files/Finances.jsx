@@ -32,7 +32,7 @@ const Finances = () => {
             <li className="before-ti-star laptop:text-[1.4em] text-[1.1em] font-medium laptop:leading-7">
               #EndSARSresponse (Medical) - ₦20,114,087.25
             </li>
-            <li className="before-ti-star laptop:text-[1.4em] laptop:leading-7">
+            <li className="before-ti-star laptop:text-[1.4em] text-[1.1em] font-medium laptop:leading-7">
               The Legal Aid Network - ₦15,741,459.59
             </li>
             <li className="before-ti-star laptop:text-[1.4em] text-[1.1em] font-medium laptop:leading-7">
@@ -42,7 +42,7 @@ const Finances = () => {
             <li className="before-ti-star laptop:text-[1.4em] text-[1.1em] font-medium laptop:leading-7">
               Memorial for the Fallen - ₦5,247,153.197
             </li>
-            <li className="before-ti-star laptop:text-[1.6em] text-[1.1em] font-medium laptop:leading-7">
+            <li className="before-ti-star laptop:text-[1.4em] text-[1.1em] font-medium laptop:leading-7">
               #EndSARSMentalHealthSupport - ₦6,121,678.73
             </li>
           </ul>
