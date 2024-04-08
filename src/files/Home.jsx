@@ -6,6 +6,8 @@ import GridCon from './GridCon'
 import About from './About'
 import Members from './Members'
 import Finances from './Finances'
+import Happen from './Happen'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
         <About />
         <Members />
         <Finances />
+        <Happen />
+        <Footer />
     </main>
   )
 }
