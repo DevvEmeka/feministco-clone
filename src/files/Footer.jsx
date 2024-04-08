@@ -6,7 +6,7 @@ import femcoLogo from "../assets/feministco-logo.png";
 const Footer = () => {
   return (
     <footer className="bg-[#000] max-w-full text-[#fff]">
-      <div className="mx-auto pb-[40px] pt-[80px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] mt-[72px] laptop:max-w-[67.6rem] w-full text-center">
+      <div className="mx-auto pb-[80px] pt-[80px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] mt-[72px] laptop:max-w-[67.6rem] w-full text-center">
         <div className="flex text-center justify-center">
           <img
             src={femcoLogo}
