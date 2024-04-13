@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section className="mx-auto pb-[138px] px-[30px] laptop:pt-[12.6rem] laptop:pb-[2rem] laptop:max-w-[67.6rem] w-full">
       <div className="flex items-center justify-center gap-2 w-[100%] flex-col laptop:flex-row">
-        <div className="mb-[28px] laptop:-mb-[185px] laptop:[transform:rotate(270deg)] laptop:w-[10%] laptop:whitespace-nowrap laptop:-ml-[12px] -ml-[180px] text-[2em] laptop:text-[3.5em] font-semibold- font-sangbleu">
+        <h2 className="mb-[12px] laptop:-mb-[185px] laptop:[transform:rotate(270deg)] laptop:w-[10%] laptop:whitespace-nowrap laptop:-ml-[12px] -ml-[180px] text-[2em] laptop:text-[3.5em] font-semibold- font-sangbleu">
           Who We Are
-        </div>
+        </h2>
         <div className="flex w-[90] gap-[39px] flex-col laptop:flex-row">
           <div className="mb-[26px]">
             <img
