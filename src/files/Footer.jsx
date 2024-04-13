@@ -16,18 +16,18 @@ const Footer = () => {
             className="w-[3.6em] laptop:w-[4.1em] text-center"
           />
         </div>
-        <div className="flex justify-between laptop:justify-center px-[5px] items-center mt-[43px] laptop:text-[1.3em] text-[1.1em]">
+        <div className="flex justify-between laptop:justify-center px-[8px] items-center mt-[43px] laptop:text-[1.3em] text-[0.8em] overflow-clip">
           <div className="flex items-center">
             <span className="mr-[10px]">
               <FaTwitter className="text-[1.7em] laptop:text-[1.7em]" />
             </span>
             <a href="https://x.com/feminist_co?s=21">@feminist_co</a>
           </div>
-          <div className="flex items-center ml-[70px]">
+          <div className="flex items-center ml-[60px]">
             <span className="mr-[10px]">
               <FaInstagram className="text-[1.7em] laptop:text-[1.7em]" />
             </span>
-            <a href="https://www.instagram.com/feminist.co/">@feminist.co</a>
+            <a className="text-red-600" href="https://www.instagram.com/feminist.co/">@feminist.co</a>
           </div>
         </div>
         <div className="flex justify-evenly pt-[60px] laptop:text-[1em] text-[0.8em]">
