@@ -16,7 +16,7 @@ const About = () => {
               alt="about"
             />
           </div>
-          <div className="laptop:max-w-[510px] laptop:text-[1.4em] mt-[-36px] laptop:mt-[3px] text-[1.2em]">
+          <div className="laptop:max-w-[510px] laptop:text-[1.3em] font-sans mt-[-36px] laptop:mt-[3px] text-[1.2em]">
             <p className="mb-[10px] mt-[10px] laptop:leading-7">
               In July 2020, Damilola Odufuwa and Odunayo Eweniyi decided to come
               together to create a coalition of feminist women with a vision of

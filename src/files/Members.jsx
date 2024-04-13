@@ -86,12 +86,12 @@ const Members = () => {
                   Meet Our Members
                 </div>
                 <div>
-                  <p className="laptop:text-[#fff] font-DM-San laptop:text-[1.5em] laptop:mb-[50px] laptop:leading-8">
+                  <p className="laptop:text-[#fff] font-sans laptop:text-[1.4em] laptop:mb-[50px] laptop:leading-8">
                     We uniquely select our members. Members <br />
                     can choose to work on specific and stand <br />
                     alone projects in line with their passions.
                   </p>
-                  <button className="laptop:text-[#000] font-medium laptop:text-[1.4em] laptop:rounded-[3px] laptop:cursor-pointer laptop:py-[10px] laptop:px-[38px] laptop:inline-block laptop:bg-[#ffe369] laptop:mb-5">
+                  <button className="laptop:text-[#000] font-sans font-medium laptop:text-[1.2em] laptop:rounded-[3px] laptop:cursor-pointer laptop:py-[10px] laptop:px-[38px] laptop:inline-block laptop:bg-[#ffe369] laptop:mb-5">
                     Join Us
                   </button>
                 </div>
