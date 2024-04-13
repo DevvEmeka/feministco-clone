@@ -27,7 +27,7 @@ const Footer = () => {
             <span className="mr-[10px]">
               <FaInstagram className="text-[1.7em] laptop:text-[1.7em]" />
             </span>
-            <a className="text-red-600" href="https://www.instagram.com/feminist.co/">@feminist.co</a>
+            <a href="https://www.instagram.com/feminist.co/">@feminist.co</a>
           </div>
         </div>
         <div className="flex justify-evenly pt-[60px] laptop:text-[1em] text-[0.8em]">
