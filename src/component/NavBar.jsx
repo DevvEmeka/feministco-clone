@@ -11,7 +11,7 @@ const NavBar = () => {
         </a>
         <ul className="laptop:flex text-[1.02em] items-center ease-in font-mono font-medium hidden">
           <li className="text-[1.02em] mr-[3.125rem] cursor-pointer">
-            <Link to='/endsars'>#Endsars</Link>
+            <Link to="/endsars">#Endsars</Link>
           </li>
           <li className="text-[1.02em] mr-[3.125rem] cursor-pointer">
             About Us
@@ -31,7 +31,9 @@ const NavBar = () => {
 
         <ul className="flex md:hidden items-center ease-out font-mono font-medium">
           <li className="text-[1.2em] mr-[3.5rem] ">Home</li>
-          <li className="text-[1.2em]">#EndSARS</li>
+          <li className="text-[1.2em]">
+            <Link to="/endsars">#Endsars</Link>
+          </li>
         </ul>
       </nav>
     </header>
