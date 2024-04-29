@@ -21,15 +21,19 @@ const EndSars = () => {
                 <img
                   className="w-full"
                   src={feministCo}
-                  alt="feministco logo" 
+                  alt="feministco logo"
                 />
               </a>
               <ul className="laptop:flex text-[1.02em] items-center ease-in font-mono font-medium hidden">
                 <li className="text-[1.02em] mr-[3.125rem] cursor-pointer text-[#fff]">
-                  <Link className="text-[#fff]" to="/">Home</Link>
+                  <Link to="/">
+                    Home
+                  </Link>
                 </li>
                 <li className="text-[1.02em] mr-[3.125rem] cursor-pointer text-[#fff]">
-                  <Link className="text-[#fff]" to="/endsars">#EndSARS</Link>
+                  <Link to="/endsars">
+                    #EndSARS
+                  </Link>
                 </li>
                 <li className="text-[1.02em] mr-[3.125rem] cursor-pointer text-[#fff]">
                   Contact Us
@@ -41,78 +45,54 @@ const EndSars = () => {
                 </li>
               </ul>
               <ul className="flex md:hidden items-center ease-out font-mono font-medium text-[#fff]">
-                <li className="text-[1.2em] mr-[3.5rem] ">Home</li>
-                <li className="text-[1.2em]">#EndSARS</li>
+                <li className="text-[1.2em] mr-[3.5rem] ">
+                  <Link className="text-[#fff]" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="text-[1.2em]">
+                  <Link className="text-[#fff]" to="/endsars">
+                    #EndSARS
+                  </Link>
+                </li>
               </ul>
             </nav>
           </header>
           <div className="flex items-center justify-center laptop:pt-[230px] pt-[419px]">
-            <div className="text-[6.8em] font-semibold laptop:text-[13em] text-[#ffe369] mb-5 mr-5 laptop:mr-[40px]">
+            <div className="text-[6.8em] mb-[80px] font-semibold laptop:text-[13em] text-[#ffe369] mr-5 laptop:mr-[40px]">
               #
             </div>
-            <span className="font-sangbleu -mt-4 laptop:mt-5 text-[2.3em] font-normal laptop:text-[5em] uppercase text-[#fff] inline-block leading-10 laptop:leading-none relative overflow-hidden">
-              <span className="">
-                e
-              </span>
-              <span className="">
-                n
-              </span>
-              <span className="">
-                d
-              </span>
-              <span className="">
-                p
-              </span>
-              <span className="">
-                o
-              </span>
-              <span className="">
-                l
-              </span>
-              <span className="">
-                i
-              </span>
-              <span className="">
-                c
-              </span>
-              <span className="">
-                e
-              </span>
+            <span className="font-sangbleu mb-[80px] laptop:mt-5 text-[2.3em] font-normal laptop:text-[5em] uppercase text-[#fff] inline-block leading-10 laptop:leading-none relative overflow-hidden">
+              <span className="">e</span>
+              <span className="">n</span>
+              <span className="">d</span>
+              <span className="">p</span>
+              <span className="">o</span>
+              <span className="">l</span>
+              <span className="">i</span>
+              <span className="">c</span>
+              <span className="">e</span>
               <br />
-              <span className="">
-                b
-              </span>
-              <span className="">
-                r
-              </span>
-              <span className="">
-                u
-              </span>
-              <span className="">
-                t
-              </span>
-              <span className="">
-                a
-              </span>
-              <span className="">
-                l
-              </span>
-              <span className="">
-                i
-              </span>
-              <span className="">
-                t
-              </span>
-              <span className="">
-                y
-              </span>
+              <span className="">b</span>
+              <span className="">r</span>
+              <span className="">u</span>
+              <span className="">t</span>
+              <span className="">a</span>
+              <span className="">l</span>
+              <span className="">i</span>
+              <span className="">t</span>
+              <span className="">y</span>
             </span>
           </div>
         </div>
         {/* journey component */}
-        <div className=""><Journey /></div>
+        <div className="">
+          <Journey />
+        </div>
         {/* Heroes component */}
-        <div><Heroes /></div>
+        <div>
+          <Heroes />
+        </div>
         {/* Movement component */}
         <Movement />
         {/* EndSarsFooter Component */}
