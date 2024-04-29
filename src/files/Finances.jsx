@@ -5,7 +5,7 @@ const Finances = () => {
   return (
     // mx-auto pb-[30px] pt-[100px] px-[30px] laptop:pt-[2rem] laptop:pb-[9px] laptop:max-w-[67.6rem] w-full
     <section className="bg-[#ffe369] pt-[100px] laptop:px-[130px] px-[30px] py-[80px] mx-auto">
-      <h2 className="text-[1.6em] laptop:text-[3.8em] font-sangbleu mb-[30px] font-semibold laptop:font-bold ">
+      <h2 className="text-[1.4em] laptop:text-[3.8em] font-sangbleu mb-[30px] font-semibold laptop:font-bold ">
         What We Have Done.
       </h2>
       <p className="text-[1em] laptop:text-[1.5em] font-sans mb-[30px] laptop:leading-9 leading-7">
@@ -19,10 +19,10 @@ const Finances = () => {
             <img src={finImage} alt="finance image" className="laptop:w-full" />
           </div>
         </div>
-        <div className="laptop:flex-grow-0 laptop:flex-shrink-0 laptop:w-[52%] laptop:max-w-[52%] font-sans">
+        <div className="laptop:flex-grow-0 laptop:flex-shrink-0 laptop:w-[52%] laptop:pt-[26px] laptop:max-w-[52%] font-sans">
           <ul className="m-0 p-0 list-none grid gap-[0.5rem]">
-            <li className="before-ti-star laptop:text-[1.4em] text-[0.95em font-normal laptop:leading-7">Total disbursed = ₦60,403,235.00</li>
-            <li className="before-ti-star laptop:text-[1.4em] text-[0.95em font-normal laptop:leading-7">Total left = ₦87,452,553.28</li>
+            <li className="before-ti-star laptop:text-[1.4em] text-[0.95em] font-normal laptop:leading-7">Total disbursed = ₦60,403,235.00</li>
+            <li className="before-ti-star laptop:text-[1.4em] text-[0.95em] font-normal laptop:leading-7">Total left = ₦87,452,553.28</li>
           </ul>
           <p className="leading-6 text-[0.95em] font-bold px-0 py-[20px] laptop:py-[40px] laptop:font-bold laptop:text-[1.2rem] laptop:leading-8">
             The remaining funds will be channeled through the following
