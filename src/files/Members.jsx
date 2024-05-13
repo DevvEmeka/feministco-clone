@@ -11,6 +11,7 @@ import image6 from "../assets/eduniyi_px.jpg";
 import NextArrow from "../component/NextArrow";
 import PrevArrow from "../component/PrevArrow";
 
+
 const Members = () => {
   const data = [
     {
@@ -96,7 +97,7 @@ const Members = () => {
                   </button>
                 </div>
               </div>
-              <div className="laptop:w-[50%] laptop:mt-0 -mt-[70px] laptop:float-right">
+              <div className="laptop:w-[50%] lead laptop:mt-0 -mt-[70px] laptop:float-right">
                 <Slider {...settings}>
                   {data.map((d, index) => (
                     <div key={index} className="">
